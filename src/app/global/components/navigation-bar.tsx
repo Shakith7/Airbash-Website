@@ -1,67 +1,42 @@
-"use client";
-
-import React, { useState } from "react";
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const NavigationBar = () => {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
-
   return (
-    <nav className="bg-black shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+    <nav className="bg-black shadow-md ">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 border-t-primary">
+        {/* Logo Section */}
         <div className="flex items-center">
           <Image src="/logo.png" alt="Company Logo" width={100} height={100} />
-          <div className="ml-6 flex space-x-4">
-            <a href="/" className="text-primary hover:text-gray-700">
-              Home
-            </a>
-            <div className="relative">
-              <button
-                className="text-primary hover:text-gray-700 focus:outline-none"
-                onClick={toggleDropdown}
-              >
-                Sports
-              </button>
-              {isDropdownOpen && (
-                <div className="absolute mt-2 w-48 bg-white shadow-lg rounded-md py-2">
-                  <a
-                    href="/padel"
-                    className="block px-4 py-2 text-primary hover:bg-gray-100 hover:text-gray-700"
-                  >
-                    Padel
-                  </a>
-                  <a
-                    href="/cricket"
-                    className="block px-4 py-2 text-primary hover:bg-gray-100 hover:text-gray-700"
-                  >
-                    Cricket
-                  </a>
-                  <a
-                    href="/simulators"
-                    className="block px-4 py-2 text-primary hover:bg-gray-100 hover:text-gray-700"
-                  >
-                    Simulators
-                  </a>
-                </div>
-              )}
-            </div>
-            <a href="/entertainment" className="text-primary hover:text-gray-700">
-              Entertainment
-            </a>
-            <a href="/about" className="text-primary hover:text-gray-700">
-              About
-            </a>
-            <a href="/contact" className="text-primary hover:text-gray-700">
-              Contact
-            </a>
-            <a href="/membership" className="text-primary hover:text-gray-700">
-              Membership
-            </a>
-          </div>
+        </div>
+
+        {/* Navigation Links */}
+        <div className="flex items-center space-x-6">
+          <Link href="/" passHref>
+            <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Home</span>
+          </Link>
+          <Link href="/padel" passHref>
+            <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Padel</span>
+          </Link>
+          <Link href="/cricket" passHref>
+            <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Cricket</span>
+          </Link>
+          <Link href="/entertainment" passHref>
+            <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Entertainment</span>
+          </Link>
+          <Link href="/about" passHref>
+            <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">About</span>
+          </Link>
+          <Link href="/contact" passHref>
+            <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Contact</span>
+          </Link>
+          <Link href="/simulators" passHref>
+            <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Simulators</span>
+          </Link>
+          <Link href="/membership" passHref>
+            <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Membership</span>
+          </Link>
         </div>
       </div>
     </nav>

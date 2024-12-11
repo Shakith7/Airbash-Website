@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import HomePage from "./pages/homepage/index";
 import { Montserrat } from 'next/font/google';
+
 const montserrat = Montserrat({
-  subsets: ['latin'], // Adjust subsets based on your requirements
-  weight: ['400', '700'], // Include specific weights
-  variable: '--font-montserrat', // CSS variable for the font
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-montserrat',
 });
 
 export const metadata: Metadata = {
@@ -14,15 +14,14 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-}: Readonly<{
+  children, 
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en" className={montserrat.variable}>
-      <body
-        className="font-montserrat"
-      >
-        <HomePage />
+      <body className="font-montserrat">
+        {children}
       </body>
     </html>
   );
