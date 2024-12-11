@@ -1,12 +1,16 @@
-import React from 'react';
-import Image from 'next/image';
-
+import React from "react";
+import Image from "next/image";
+import { CgArrowRightO } from "react-icons/cg";
 const FacilitiesSection = () => {
   const facilities = [
     { title: "CRICKET", image: "/images/image-22.png", alt: "Cricket" },
     { title: "PADEL", image: "/images/image-22.png", alt: "Padel" },
     { title: "SIMULATORS", image: "/images/image-22.png", alt: "Simulators" },
-    { title: "ENTERTAINMENT", image: "/images/image-22.png", alt: "Entertainment" },
+    {
+      title: "ENTERTAINMENT",
+      image: "/images/image-22.png",
+      alt: "Entertainment",
+    },
   ];
 
   return (
@@ -16,24 +20,25 @@ const FacilitiesSection = () => {
           LONDON&apos;S PREMIER MULTI-SPORTS ARENA
         </h2>
         <p className="text-lg md:text-2xl text-gray-700 mb-12 leading-relaxed">
-          At Airbash, we combine the excitement of multiple sports with an exceptional 
-          experience from the moment you arrive. Our mission is to create unforgettable 
-          moments, from the dynamic atmosphere to the personalized touches that make 
-          every visit special, whether you&apos;re new to the game or a seasoned athlete. 
-          Airbash is the place where you belong, offering a unique blend of Padel, Cricket, 
+          At Airbash, we combine the excitement of multiple sports with an
+          exceptional experience from the moment you arrive. Our mission is to
+          create unforgettable moments, from the dynamic atmosphere to the
+          personalized touches that make every visit special, whether
+          you&apos;re new to the game or a seasoned athlete. Airbash is the
+          place where you belong, offering a unique blend of Padel, Cricket,
           Simulators, and Entertainment - all under one roof.
         </p>
 
         <div className="flex justify-center gap-4 mb-12">
           <a
             href="#"
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-md transition"
+            className="flex items-center justify-center w-full max-w-[250px] bg-primary hover:bg-white text-black  font-bold py-3 px-6 rounded-lg shadow-md transition"
           >
-            Book on Playtonic
+            Book on Playtomic <CgArrowRightO className="ml-2 h-8 w-8" />
           </a>
           <a
             href="#"
-            className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-3 px-6 rounded-lg shadow-md transition"
+            className="flex items-center justify-center w-full max-w-[250px] bg-black hover:bg-white text-primary hover:text-black font-bold py-3 px-6 rounded-lg shadow-md transition"
           >
             Newsletter
           </a>
@@ -46,7 +51,9 @@ const FacilitiesSection = () => {
               className="bg-gray-100 rounded-lg overflow-hidden group"
             >
               {/* Image */}
-              <div className="relative w-full h-[48rem]"> {/* Increased height */}
+              <div className="relative w-full h-64 md:h-80 lg:h-96">
+                {" "}
+                {/* Adjusted height */}
                 <Image
                   src={facility.image}
                   alt={facility.alt}
@@ -57,7 +64,7 @@ const FacilitiesSection = () => {
               </div>
               {/* Title */}
               <div className="p-4 bg-white">
-                <h3 className="text-3xl font-bold font-semibold text-gray-900 text-center">
+                <h3 className="text-xl md:text-2xl font-bold text-gray-900 text-center">
                   {facility.title}
                 </h3>
               </div>

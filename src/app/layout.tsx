@@ -1,17 +1,11 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import HomePage from "./pages/homepage/index";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+import { Montserrat } from 'next/font/google';
+const montserrat = Montserrat({
+  subsets: ['latin'], // Adjust subsets based on your requirements
+  weight: ['400', '700'], // Include specific weights
+  variable: '--font-montserrat', // CSS variable for the font
 });
 
 export const metadata: Metadata = {
@@ -24,9 +18,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={montserrat.variable}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className="font-montserrat"
       >
         <HomePage />
       </body>

@@ -19,13 +19,13 @@ const SocialEventsSection = () => {
           <div className="flex gap-4">
             <a
               href="/learn-more"
-              className="px-6 py-3 bg-black text-white font-bold uppercase rounded-lg hover:bg-gray-800 transition"
+              className="px-6 py-3 bg-black text-white font-bold uppercase hover:bg-gray-800 transition"
             >
               Learn More
             </a>
             <a
               href="/get-quote"
-              className="px-6 py-3 bg-lime-400 text-black font-bold uppercase rounded-lg hover:bg-lime-500 transition"
+              className="px-6 py-3 bg-primary text-black font-bold uppercase hover:bg-white hover:text-lime-500 transition"
             >
               Get a Quote
             </a>
@@ -64,13 +64,13 @@ const SocialEventsSection = () => {
           <div className="flex gap-4 justify-end">
             <a
               href="/get-quote"
-              className="px-6 py-3 bg-lime-400 text-black font-bold uppercase rounded-lg hover:bg-lime-500 transition"
+              className="px-6 py-3 bg-primary text-black font-bold uppercase hover:bg-white hover:text-lime-500 transition"
             >
               Get a Quote
             </a>
             <a
               href="/become-member"
-              className="px-6 py-3 bg-black text-white font-bold uppercase rounded-lg hover:bg-gray-800 transition"
+              className="px-6 py-3 bg-black text-white font-bold uppercase hover:bg-gray-800 transition"
             >
               Become a Member
             </a>
