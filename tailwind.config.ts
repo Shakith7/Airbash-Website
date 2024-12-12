@@ -12,6 +12,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: '#E8FE6C',
+        primaryCricket: '#FF4FF3',
       },
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],

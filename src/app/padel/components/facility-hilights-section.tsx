@@ -6,27 +6,27 @@ const FacilityHighlights = () => {
     {
       title: 'Courts',
       description: '3 courts',
-      icon: '/icons/courts-icon.svg', // Replace with your icon path
+      icon: '/icons/courts-icon.png', 
     },
     {
       title: 'Players',
       description: 'Courts accommodate 4 players',
-      icon: '/icons/players-icon.svg', // Replace with your icon path
+      icon: '/icons/players-icon.png', // Replace with your icon path
     },
     {
       title: 'Benefits',
       description: 'Food joint showers',
-      icon: '/icons/benefits-icon.svg', // Replace with your icon path
+      icon: '/icons/benefits-icon.png', // Replace with your icon path
     },
     {
       title: 'Rockets',
       description: 'Available to hire with hire charges',
-      icon: '/icons/rockets-icon.svg', // Replace with your icon path
+      icon: '/icons/padel-rockets-icon.png', // Replace with your icon path
     },
     {
       title: 'Padel balls',
       description: 'Available to purchase',
-      icon: '/icons/padel-balls-icon.svg', // Replace with your icon path
+      icon: '/icons/padel-balls-icon.png', // Replace with your icon path
     },
   ];
 
@@ -39,7 +39,7 @@ const FacilityHighlights = () => {
             className="flex flex-col items-center text-center bg-white rounded-lg shadow-md p-4"
           >
             {/* Icon */}
-            <div className="bg-primary p-3 rounded-md mb-4">
+            <div className="bg-primaryCricket p-3 rounded-md mb-4">
               <Image
                 src={highlight.icon}
                 alt={`${highlight.title} icon`}

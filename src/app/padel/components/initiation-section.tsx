@@ -12,7 +12,7 @@ const PadelInitiationSection = () => {
         </div>
 
         {/* Right Column */}
-        <div className="bg-primary p-6 rounded-lg shadow-md">
+        <div className="bg-primaryCricket p-6 rounded-lg shadow-md">
           <p className="text-base sm:text-lg text-gray-900 leading-relaxed">
             Opened in September 2024, the club features a state-of-the-art, 4-court facility
             housed in an 11-meter-high bespoke glass building with stunning views of the River
