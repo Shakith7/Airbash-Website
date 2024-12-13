@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Montserrat } from 'next/font/google';
+import BookNowButton from "./global/components/book-now-button";
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -22,6 +23,7 @@ export default function RootLayout({
     <html lang="en" className={montserrat.variable}>
       <body className="font-montserrat">
         {children}
+        <BookNowButton/>
       </body>
     </html>
   );

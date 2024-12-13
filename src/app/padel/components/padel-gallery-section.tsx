@@ -44,11 +44,11 @@ const PadelGallery = () => {
 
   return (
     <section className="bg-[#f7f7f5] py-8">
-      <div className="container mx-auto flex items-center">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center">
         {/* Text and Buttons */}
-        <div className="w-3/12 pr-8">
-          <h2 className="text-6xl font-bold justify-center text-black mb-6">Gallery</h2>
-          <div className="flex  items-center space-x-4 mb-8">
+        <div className="w-full lg:w-3/12 pr-0 lg:pr-8 mb-8 lg:mb-0 text-center lg:text-left">
+          <h2 className="text-4xl lg:text-6xl font-bold text-black mb-6">Gallery</h2>
+          <div className="flex justify-center lg:justify-start items-center space-x-4">
             <motion.button
               onClick={handlePrevious}
               className="w-12 h-12 flex items-center justify-center bg-black text-white rounded hover:bg-gray-700 transition"
@@ -75,7 +75,7 @@ const PadelGallery = () => {
         </div>
 
         {/* Image Gallery */}
-        <div className="w-9/12 grid grid-cols-3 gap-4">
+        <div className="w-full lg:w-9/12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <AnimatePresence>
             {visibleImages.map((image, index) => (
               <motion.div

@@ -10,23 +10,23 @@ const FacilityHighlights = () => {
     },
     {
       title: 'Players',
-      description: 'Courts accommodate 4 players',
-      icon: '/icons/players-icon.png', // Replace with your icon path
+      description: 'Courts accommodate 10 players',
+      icon: '/icons/players-icon.png',
     },
     {
       title: 'Benefits',
       description: 'Food joint showers',
-      icon: '/icons/benefits-icon.png', // Replace with your icon path
+      icon: '/icons/benefits-icon.png',
     },
     {
-      title: 'Rockets',
+      title: 'Bats ',
       description: 'Available to hire with hire charges',
-      icon: '/icons/padel-rockets-icon.png', // Replace with your icon path
+      icon: '/icons/cricket-bats-icon.png',
     },
     {
-      title: 'Padel balls',
+      title: 'Soft balls',
       description: 'Available to purchase',
-      icon: '/icons/padel-balls-icon.png', // Replace with your icon path
+      icon: '/icons/padel-balls-icon.png', 
     },
   ];
 
