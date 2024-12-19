@@ -6,6 +6,7 @@ import PadelForWomen from "./components/women-section";
 import BookingSteps from "../global/components/booking-steps-section";
 import PadelGallery from "./components/padel-gallery-section";
 import ContactForm from "../global/components/contact-us-section";
+import Footer from "../global/components/footer-section";
 export default function Padel() {
     return (
         <div>
@@ -17,6 +18,7 @@ export default function Padel() {
             <BookingSteps />
             <PadelGallery />
             <ContactForm />
+            <Footer />
         </div>
     );
 }

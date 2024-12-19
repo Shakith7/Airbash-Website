@@ -15,7 +15,7 @@ const GallerySection = () => {
   ];
 
   return (
-    <section className="bg-white py-16">
+    <section className="bg-whitebg py-16">
       <div className="mx-auto px-6 sm:px-8 lg:px-10">
         {/* Heading */}
         <div className="text-center mb-12">

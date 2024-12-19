@@ -64,17 +64,17 @@ const NavigationBar = () => {
             <Link href="/cricket" passHref>
               <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Cricket</span>
             </Link>
+            <Link href="/simulators" passHref>
+              <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Simulators</span>
+            </Link>
             <Link href="/entertainment" passHref>
               <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Entertainment</span>
             </Link>
-            <Link href="/about" passHref>
+            <Link href="/about-us" passHref>
               <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">About</span>
             </Link>
-            <Link href="/contact" passHref>
+            <Link href="/contact-us" passHref>
               <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Contact</span>
-            </Link>
-            <Link href="/simulators" passHref>
-              <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Simulators</span>
             </Link>
             <Link href="/membership" passHref>
               <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Membership</span>

@@ -1,22 +1,24 @@
 import NavigationBar from "../global/components/navigation-bar";
-import FacilitiesSection from "../padel/components/facility-hilights-section";
-import PadelInitiationSection from "../padel/components/initiation-section";
-import HeroSection from "../padel/components/hero-section";
-import PadelForWomen from "./components/women-section";
-import BookingSteps from "./components/booking-steps-section";
-import PadelGallery from "./components/padel-gallery-section";
+import FacilitiesSection from "./components/facility-hilights-section";
+import PadelInitiationSection from "./components/initiation-section";
+import HeroSection from "./components/hero-section";
+// import PadelForWomen from "./components/women-section";
+import BookingSteps from "../global/components/booking-steps-section";
+import SimulatorGallery from "./components/simulator-gallery-section";
 import ContactForm from "../global/components/contact-us-section";
-export default function Padel() {
+import Footer from "../global/components/footer-section";
+export default function Simulators() {
     return (
         <div>
             <NavigationBar />
             <HeroSection />
             <FacilitiesSection />
             <PadelInitiationSection />
-            <PadelForWomen />
+            {/* <PadelForWomen /> */}
             <BookingSteps />
-            <PadelGallery />
+            <SimulatorGallery />
             <ContactForm />
+            <Footer />
         </div>
     );
 }

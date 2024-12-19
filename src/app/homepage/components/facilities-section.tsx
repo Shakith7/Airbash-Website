@@ -14,12 +14,12 @@ const FacilitiesSection = () => {
   ];
 
   return (
-    <section className="bg-white py-16 md:py-24">
+    <section className="bg-whitebg py-16 md:py-24">
       <div className="container mx-auto px-6 lg:px-8 text-center">
         <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-8">
           LONDON&apos;S PREMIER MULTI-SPORTS ARENA
         </h2>
-        <p className="text-lg md:text-2xl text-gray-700 mb-12 leading-relaxed">
+        <p className="text-lg md:text-2xl text-gray-800 mb-12 leading-relaxed">
           At Airbash, we combine the excitement of multiple sports with an
           exceptional experience from the moment you arrive. Our mission is to
           create unforgettable moments, from the dynamic atmosphere to the
@@ -32,13 +32,13 @@ const FacilitiesSection = () => {
         <div className="flex justify-center gap-4 mb-12">
           <a
             href="#"
-            className="flex items-center justify-center w-full max-w-[250px] bg-primary hover:bg-white text-black  font-bold py-3 px-6 rounded-lg shadow-md transition"
+            className="flex items-center justify-center w-full max-w-[250px] bg-primary hover:bg-white text-gray-800  font-bold py-3 px-6 rounded-lg shadow-md transition"
           >
             Book on Playtomic <CgArrowRightO className="ml-2 h-8 w-8" />
           </a>
           <a
             href="#"
-            className="flex items-center justify-center w-full max-w-[250px] bg-black hover:bg-white text-primary hover:text-black font-bold py-3 px-6 rounded-lg shadow-md transition"
+            className="flex items-center justify-center w-full max-w-[250px] bg-gray-800 hover:bg-white text-primary hover:text-gray-800 font-bold py-3 px-6 rounded-lg shadow-md transition"
           >
             Newsletter
           </a>
@@ -63,7 +63,7 @@ const FacilitiesSection = () => {
                 />
               </div>
               {/* Title */}
-              <div className="p-4 bg-white">
+              <div className="p-4 bg-whitebg">
                 <h3 className="text-xl md:text-2xl font-bold text-gray-900 text-center">
                   {facility.title}
                 </h3>

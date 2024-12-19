@@ -51,7 +51,7 @@ const PadelGallery = () => {
           <div className="flex justify-center lg:justify-start items-center space-x-4">
             <motion.button
               onClick={handlePrevious}
-              className="w-12 h-12 flex items-center justify-center bg-black text-white rounded hover:bg-gray-700 transition"
+              className="w-12 h-12 flex items-center justify-center bg-black text-4FFFB3bg rounded hover:bg-gray-700 transition"
               variants={buttonVariants}
               initial="initial"
               animate="animate"
@@ -62,7 +62,7 @@ const PadelGallery = () => {
             </motion.button>
             <motion.button
               onClick={handleNext}
-              className="w-12 h-12 flex items-center justify-center bg-black text-white rounded hover:bg-gray-700 transition"
+              className="w-12 h-12 flex items-center justify-center bg-black text-4FFFB3bg rounded hover:bg-gray-700 transition"
               variants={buttonVariants}
               initial="initial"
               animate="animate"

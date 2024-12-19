@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const SocialEventsSection = () => {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-whitebg">
       <div className="container mx-auto px-6 sm:px-8 lg:px-10 grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* Social Events Section */}
         <div className="flex flex-col justify-center space-y-6">

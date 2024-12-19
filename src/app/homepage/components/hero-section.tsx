@@ -1,22 +1,28 @@
 "use client";
 
-
 const HeroSection = () => {
   return (
-    <section className="relative bg-black text-white h-screen">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: "url('/images/hero-athletes.png')", 
-        }}
-      ></div>
+    <section className="relative bg-black text-white h-screen overflow-hidden">
+      {/* Background Video */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src="/videos/hero-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
       {/* Background Overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+
       {/* Hero Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 h-full flex flex-col justify-center items-center text-center">
         <h1 className="text-4xl lg:text-8xl font-bold uppercase leading-tight">
-          The <span className="text-primary">Ultimate Indoor</span><br/> Sporting Experience
+          The <span className="text-primary">Ultimate Indoor</span>
+          <br /> Sporting Experience
         </h1>
         <p className="text-3xl mt-4 font-medium text-gray-300">
           #Play, <span className="text-primary">Connect</span>, & Unwind

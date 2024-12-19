@@ -31,12 +31,12 @@ const FacilityHighlights = () => {
   ];
 
   return (
-    <section className="bg-[#f7f7f5] py-12">
+    <section className="bg-whitebg py-12">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 px-4">
         {highlights.map((highlight, index) => (
           <div
             key={index}
-            className="flex flex-col items-center text-center bg-white rounded-lg shadow-md p-4"
+            className="flex flex-col items-center text-center bg-4FFFB3bg rounded-lg shadow-md p-4"
           >
             {/* Icon */}
             <div className="bg-primaryCricket p-3 rounded-md mb-4">

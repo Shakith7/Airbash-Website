@@ -11,7 +11,6 @@ const BookingSteps = () => {
       number: '1',
       title: 'GO TO PLAYTOMIC’S BOOKING PLATFORM DIRECTLY BY CLICKING THE BUTTON BELOW.',
       button: 'Book on Playtomic',
-      image: '/images/step-1.jpg', // Replace with your image path
     },
     {
       number: '2',
@@ -29,7 +28,7 @@ const BookingSteps = () => {
     <section className="bg-[#f7f7f5] py-12">
       <div className="container mx-auto text-center">
         {/* Section Title */}
-        <h2 className="text-2xl text-left md:text-5xl font-bold text-lime-600 mb-2">
+        <h2 className="text-2xl text-left md:text-5xl font-bold text-blackbg mb-2">
           Bookings Made Easy
         </h2>
         <p className="text-gray-600 mb-10 text-left">
