@@ -8,25 +8,25 @@ const WhatsOnOffer = () => {
       title: "#ACADEMY",
       description:
         "At AIRBASH, we offer classes for all skill levels, from beginners to pros. Our multisport academy provides expert coaching in cricket, padel, baseball, and golf, tailored to your needs.",
-      image: "/images/academy.jpg", 
+      image: "/images/academy.jpg",
     },
     {
       title: "#LIFESTYLE",
       description:
         "Experience a lifestyle hub designed for sport enthusiasts and families, combining world-class facilities with a welcoming community vibe.",
-      image: "/images/lifestyle.jpg", 
+      image: "/images/lifestyle.jpg",
     },
     {
       title: "#NUTRI-SHOP",
       description:
         "Refuel and recharge at our Nutri-Shop offering performance-focused snacks, meals, and hydration tailored for active lifestyles.",
-      image: "/images/nutri-shop.jpg", 
+      image: "/images/nutri-shop.jpg",
     },
     {
       title: "#VENUE-HIRE",
       description:
         "Host unforgettable events at AIRBASH, with versatile spaces perfect for sports parties, corporate gatherings, and private functions.",
-      image: "/images/venue-hire.jpg", 
+      image: "/images/venue-hire.jpg",
     },
   ];
 
@@ -49,13 +49,15 @@ const WhatsOnOffer = () => {
               key={index}
               className="relative group overflow-hidden rounded-lg shadow-md"
             >
+              {/* Image with Black and White Effect */}
               <Image
                 src={offer.image}
                 alt={offer.title}
                 width={300}
                 height={600}
-                className="w-full h-full object-cover transform group-hover:scale-110 transition duration-300"
+                className="w-full h-full object-cover filter grayscale group-hover:filter-none transition duration-300"
               />
+              {/* Overlay */}
               <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                 <h3 className="text-4xl font-bold text-primary">
                   {offer.title}

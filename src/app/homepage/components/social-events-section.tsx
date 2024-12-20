@@ -33,7 +33,7 @@ const SocialEventsSection = () => {
         </div>
         <div>
           <Image
-            src="/images/social-events.jpg"
+            src="/images/social-events-1.jpg"
             alt="Social Events"
             className="rounded-lg shadow-md"
             width={800}

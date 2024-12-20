@@ -6,7 +6,7 @@ const PadelHeroSection = () => {
     <section className="relative w-full h-screen">
       {/* Background Image */}
       <Image
-        src="/images/simulators-bg.jpg" 
+        src="/images/simulators-bg-2.jpg" 
         alt="Padel Courts"
         layout="fill"
         objectFit="cover"
