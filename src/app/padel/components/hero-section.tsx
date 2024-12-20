@@ -7,7 +7,7 @@ const PadelHeroSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/padel-courts-bg.jpg"
+          src="/images/padel-courts-bg-2.jpg"
           alt="Padel Courts"
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 100vw" // Adjusts based on screen size
