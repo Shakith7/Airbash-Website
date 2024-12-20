@@ -39,7 +39,7 @@ const FacilityHighlights = () => {
             className="flex flex-col items-center text-center bg-4FFFB3bg rounded-lg shadow-md p-4"
           >
             {/* Icon */}
-            <div className="bg-primaryCricket p-3 rounded-md mb-4">
+            <div className="bg-primary p-3 rounded-md mb-4">
               <Image
                 src={highlight.icon}
                 alt={`${highlight.title} icon`}

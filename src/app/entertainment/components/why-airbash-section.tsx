@@ -47,7 +47,7 @@ const WhyAirbash = () => {
                   src={card.image}
                   alt={`Card image ${index + 1}`}
                   fill
-                  className="object-cover grayscale group-hover:grayscale-0 transition-all duration-300"
+                  className="object-cover  transition-all duration-300"
                 />
               </div>
 

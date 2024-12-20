@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 const PadelHeroSection = () => {
   return (
-    <section className="relative w-full h-[70vh]">
+    <section className="relative w-full h-screen">
       {/* Background Image */}
       <Image
-        src="/images/cricket-courts-bg.jpg" 
+        src="/images/simulators-bg.jpg" 
         alt="Padel Courts"
         layout="fill"
         objectFit="cover"
@@ -18,7 +18,7 @@ const PadelHeroSection = () => {
 
       {/* Content */}
       <div className="relative z-20 h-full flex flex-col justify-center items-start max-w-7xl mx-10 px-6 lg:px-8 text-white">
-        <div className="bg-primarySim text-black font-bold py-2 px-4 rounded-lg mb-6 flex items-center gap-2">
+        <div className="bg-primary text-black font-bold py-2 px-4 rounded-lg mb-6 flex items-center gap-2">
           <span>BOOK NOW</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@ const PadelHeroSection = () => {
           </svg>
         </div>
 
-        <h1 className="text-4xl md:text-9xl font-extrabold text-primarySim leading-tight">
+        <h1 className="text-4xl md:text-9xl font-extrabold text-primary leading-tight">
           SIMULATORS &<br/>
           GAMES
         </h1>

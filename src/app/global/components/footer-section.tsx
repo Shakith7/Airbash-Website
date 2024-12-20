@@ -97,7 +97,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-8 pt-6 text-center">
           <p className="text-sm text-gray-400">
-            © {new Date().getFullYear()} Sports Complex. All Rights Reserved.
+            © {new Date().getFullYear()} Airbash. All Rights Reserved.
           </p>
         </div>
       </div>

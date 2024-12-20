@@ -56,28 +56,28 @@ const NavigationBar = () => {
           {/* Navigation Links */}
           <div className="hidden lg:flex items-center space-x-6">
             <Link href="/" passHref>
-              <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Home</span>
+              <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">Home</span>
             </Link>
             <Link href="/padel" passHref>
-              <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Padel</span>
+              <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">Padel</span>
             </Link>
             <Link href="/cricket" passHref>
-              <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Cricket</span>
+              <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">Cricket</span>
             </Link>
             <Link href="/simulators" passHref>
-              <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Simulators</span>
+              <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">Simulators</span>
             </Link>
             <Link href="/entertainment" passHref>
-              <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Entertainment</span>
+              <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">Entertainment</span>
             </Link>
             <Link href="/about-us" passHref>
-              <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">About</span>
+              <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">About</span>
             </Link>
             <Link href="/contact-us" passHref>
-              <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Contact</span>
+              <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">Contact</span>
             </Link>
             <Link href="/membership" passHref>
-              <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Membership</span>
+              <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">Membership</span>
             </Link>
           </div>
         </div>
@@ -87,28 +87,28 @@ const NavigationBar = () => {
           <div className="lg:hidden">
             <div className="flex flex-col space-y-4 py-4">
               <Link href="/" passHref>
-                <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Home</span>
+                <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">Home</span>
               </Link>
               <Link href="/padel" passHref>
-                <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Padel</span>
+                <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">Padel</span>
               </Link>
               <Link href="/cricket" passHref>
-                <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Cricket</span>
+                <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">Cricket</span>
               </Link>
               <Link href="/entertainment" passHref>
-                <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Entertainment</span>
+                <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">Entertainment</span>
               </Link>
               <Link href="/about" passHref>
-                <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">About</span>
+                <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">About</span>
               </Link>
               <Link href="/contact" passHref>
-                <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Contact</span>
+                <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">Contact</span>
               </Link>
               <Link href="/simulators" passHref>
-                <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Simulators</span>
+                <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">Simulators</span>
               </Link>
               <Link href="/membership" passHref>
-                <span className="text-primary font-bold hover:text-gray-300 cursor-pointer">Membership</span>
+                <span className="text-primary font-medium hover:text-gray-300 cursor-pointer">Membership</span>
               </Link>
             </div>
           </div>

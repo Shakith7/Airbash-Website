@@ -1,4 +1,4 @@
-import WhyAirbash from "../about-us/components/why-airbash-section";
+import WhyAirbash from "./components/why-airbash-section";
 import NavigationBar from "../global/components/navigation-bar";
 import Footer from "../global/components/footer-section";
 import PricingSection from "./components/entertainment-pricing-section";
