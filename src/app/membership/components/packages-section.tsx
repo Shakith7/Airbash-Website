@@ -7,7 +7,7 @@ const PricingSection = () => {
     {
       title: "Basic",
       description: "For Small Parties & Gatherings",
-      price: "$99",
+      price: "£99",
       period: "/monthly",
       features: [
         "Access to standard courts",
@@ -21,7 +21,7 @@ const PricingSection = () => {
     {
       title: "Pro",
       description: "For Get Togethers & Events",
-      price: "$199",
+      price: "£199",
       period: "/monthly",
       features: [
         "Access to premium courts",
@@ -35,7 +35,7 @@ const PricingSection = () => {
     {
       title: "Enterprise",
       description: "For Corporate Events",
-      price: "$399",
+      price: "£399",
       period: "/monthly",
       features: [
         "Exclusive access to all facilities",
@@ -64,7 +64,7 @@ const PricingSection = () => {
         {plans.map((plan, index) => (
           <div
             key={index}
-            className={`relative p-6 rounded-lg shadow-md border ${
+            className={`relative p-6 rounded-lg shadow-md border £{
               plan.highlight
                 ? "bg-primaryCricket bg-opacity-20 border-primaryCricket transform scale-105" // Highlighted plan
                 : "bg-white border-gray-200"
@@ -99,7 +99,7 @@ const PricingSection = () => {
 
             {/* Button */}
             <button
-              className={`w-full py-2 rounded-lg text-white font-medium ${
+              className={`w-full py-2 rounded-lg text-white font-medium £{
                 plan.highlight
                   ? "bg-primaryCricket hover:bg-pink-600"
                   : "bg-gray-800 hover:bg-gray-900"
